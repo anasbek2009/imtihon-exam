@@ -2,21 +2,99 @@
     .inp{
         display: none;
     }
-    .banner{
+    .banner img{
         width: 100%;
         
         }
 }
-@media screen and (max-width:990px){
-    .banner{
-        width: 100% ;
+@media screen and (max-width:990px;){
+    .banner_img{
+        object-fit: cover;
+    }    
+    
+    .flex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+@media screen and (max-width:600px){
+    .banner img{
+        width: 100%;
         margin: auto;
+        height: 100%;
+        object-fit: cover;
+        
+    }
+    .cont{
+         margin-top: 200px;
+    }
+    .products{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .cards{
+        margin-top: 350px;
+    }
+    .logo3{
+        transform: translateY(420px);
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .svg img{
+        object-fit: cover;
+        width: 90%;
+        height: 110%;
+    }
+    .container{
+        margin-top: 1000px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .br{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .gio{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 400px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .cardin1{
+        margin-left: 30px;
+    }
+    .cardin2{
+        margin-left: 50px;
+    }
+    .cardin3{
+        margin-left: 70px;
+    }
+    .cont2{
+        object-fit: cover;
+    }
+    .cont3{
+        width: 130%;
+        object-fit: cover;
     }
     .flex{
         display: grid;
-        grid-template-columns: repeat(3,1fr) !important;
+        grid-template-columns: repeat(3,1fr);
+    }
+    footer{
+        width: 530px;
     }
 }
+
     
 
     
