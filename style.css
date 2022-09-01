@@ -26,7 +26,6 @@ nav img{
     outline: none;
     transform: translateY(-3px);
     height: 40px;
-    color: violet;
 }
 .fa-pencil{
     color: red;
@@ -60,7 +59,7 @@ nav img{
 .banner{
     width: 100%;
     height: 90vh;
-    background: url("./msiu.jpeg") no-repeat center/cover;
+    background: url("./Снимок\ экрана\ \(5\).png") no-repeat center/cover;
 }
 .flex{
     width: 100%;
