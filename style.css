@@ -1,0 +1,404 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+nav img{
+    width: 250px;
+    padding: 0 2%;
+   
+}
+.inp{
+    width: 900px;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    border-right: none;
+    outline: none;
+    transform: translateY(-3px);
+    height: 40px;
+    color: violet;
+}
+.fa-pencil{
+    color: red;
+}
+.icons div {
+    text-align: center;
+}
+.icons div p{
+    padding-left: 20px;
+}
+.bnt{
+    color: white;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    transform: translateX(-5.5px);
+    background-color: red;
+    border: none;
+    transform: translateY(-3px);
+    border-radius: 5px;
+}       
+.icons i{
+    margin-left: 25px;
+}
+.icons{
+    display: flex;
+}
+.icons p{
+    padding-left: 10px;
+}
+.banner{
+    width: 100%;
+    height: 90vh;
+    background: url("./msiu.jpeg") no-repeat center/cover;
+}
+.flex{
+    width: 100%;
+    height: 50vh;
+   display: flex;
+   flex-wrap: wrap;
+}
+.gg{
+    width: 16.5%;
+}
+.logo{
+    text-align: center;
+    padding: 20px;
+}
+.gg img{
+    width: 220px;
+}
+.cont{
+    width: 95%;
+    height: 80vh;
+    background: url("./cont.webp") no-repeat center/cover;
+    margin-left: 40px;
+}
+.ban img{
+    margin-top: 20px;
+}
+.w1{
+    text-align: center;
+    padding: 40px;
+}
+.products{
+    width: 100%;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+
+.cvb{
+    text-align: center;
+}
+.cvb img{
+    width: 200px;
+}
+.logo3{
+    text-align: center;
+}
+.cards{
+    width: 90%;
+    height: 90vh;
+    overflow-x: auto;
+    margin: auto;
+    display: flex;
+
+
+}
+.card{
+    width: 300px;
+    min-width: 400px !important;
+    border: 1px solid red !important;
+    margin: auto;
+    margin-left: 10px;
+}
+.card img{
+    object-fit: contain;
+    width: 400px;
+}
+.cards::-webkit-scrollbar{
+    height: 6px;
+}
+.cards::-webkit-scrollbar-thumb{
+    background-color: #999;
+    border-radius: 20px;
+}
+body{
+    min-height: 500vh;
+}
+.cont2{
+    width: 90%;
+    height: 80vh;
+    background: url("./cont3.webp") no-repeat center/cover;
+    margin: auto;
+    margin-top: 40px;
+}
+.logo4{
+     text-align: center;
+     padding: 20px;
+     padding-bottom: 20px;
+}
+.grid{
+    width: 100%;
+    height: 65vh;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+.grid_item{
+    height: 55vh;
+    background-color: whitesmoke;
+}
+.svg{
+    width: 100%;
+    height: 35vh;
+    text-align: center;
+
+}
+.svg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.card img{
+    width: 100%;
+    height: 100%;
+}
+.lor1{
+    transform: translateY(-10px);
+}
+.lor2{
+    transform: translateY(-20px);
+}
+.ivo{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+}
+.caco{
+    width: 33.5%;
+    height: 60vh;
+}
+
+.col-4 img{
+    width: 400px;
+}
+.cvbn{
+    padding: 10px 20px;
+    background: white;
+    border: none;
+    transform: translateX(-30px);
+}
+.col-4 p{
+    width: 350px;
+    padding: 20px;
+    padding-left 40px;
+    text-align: center;
+}
+.col-4 h2{
+    transform: translateX(-20px);
+    font-weight: 700;
+
+}
+.col-4 h1{
+    transform: translateX(-30px);
+    font-weight: 700;
+}
+.br{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+.loko{
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.hr{
+    width: 36.5%;
+    height: 65vh;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+.h7{
+    width: 100%;
+    height: 50vh;
+}
+.h7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.loho{
+    text-align: center;
+    padding: 20px;
+    font-weight: 700;
+    padding-bottom: 70px;
+}
+.gio{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100%;
+    height: 70vh;
+
+}
+.cardin{
+    width: 33.5%;
+    height: 70vh;
+}
+.cacash{
+    width: 450px;
+    height: 50px;
+    background-color: whitesmoke;
+    margin-left: 50px;
+    text-align: center;
+}
+.cacash1{
+    width: 450px;
+    height: 50px;
+    background-color: whitesmoke;
+    margin-left: 50px;
+    text-align: center;
+}
+.button{
+    width: 160px;
+    height: 50px;
+    background-color: black;
+    color: #fff;
+    margin-left: 660px;
+    text-align: center;
+
+}
+
+.cacash2{
+    width: 450px;
+    height: 50px;
+    background-color: whitesmoke;
+    margin-left: 50px;
+    text-align: center;
+}
+.cacashi{
+    width: 450px;
+    height: 50px;
+    background-color: whitesmoke;
+    margin: auto;
+    text-align: center;
+}
+.cacashi{
+    width: 450px;
+    height: 50px;
+    background-color: whitesmoke;
+    margin: auto;
+    text-align: center;
+}
+.cacashi{
+    width: 450px;
+    height: 50px;
+    background-color: whitesmoke;
+    margin-left: 25px;
+    text-align: center;
+}
+.cacish{
+    width: 450px;
+    height: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.cacish{
+    width: 450px;
+    height: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.cacishki{
+    width: 450px;
+    height: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.cacishki{
+    width: 450px;
+    height: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.cacishki{
+    width: 450px;
+    height: 50px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.cardin h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #555;
+    padding-top: 10px;
+}
+footer{
+    width: 300%; 
+    height: 50vh;
+    background-color: #575757;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.footer_item{
+    height: 50vh;
+}
+.footer_item p{
+    color: white;
+    padding-left: 30px;
+    padding-top: 50px;
+    font-weight: 800;
+}
+.footer_item li{
+    color: white;
+    list-style: none;
+    line-height: 4;
+    font-size: 12px;
+    font-weight: 600;
+}
+.footer_item1{
+    height: 50vh;
+    
+}
+.footer_item1 p{
+    color: white;
+    padding-left: 30px;
+    padding-top: 50px;
+    font-weight: 800;
+    margin-left: 50px;
+}
+.footer_item1 li{
+    color: white;
+    list-style: none;
+    line-height: 4;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
